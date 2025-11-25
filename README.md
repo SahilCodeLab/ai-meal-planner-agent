@@ -10,11 +10,14 @@ This project is built specifically for the **Concierge Agents Track** in the **G
 ## 📸 Project Preview
 
 <p align="center">
-  <img src="assets/preview-ui-1.png" width="90%"/>
+  <img src="ai-meal-planner-agent
+/assets/preview-ui-1.png" width="90%"/>
   <br><br>
-  <img src="assets/preview-ui-2.png" width="90%"/>
+  <img src="ai-meal-planner-agent
+/assets/preview-ui-2.png" width="90%"/>
   <br><br>
-  <img src="assets/preview-ui-3.png" width="90%"/>
+  <img src="ai-meal-planner-agent
+/assets/preview-ui-3.png" width="90%"/>
 </p>
 
 ---
@@ -22,7 +25,8 @@ This project is built specifically for the **Concierge Agents Track** in the **G
 ## 📂 Folder Structure
 
 <p align="center">
-  <img src="assets/folder-structure.png" width="80%"/>
+  <img src="ai-meal-planner-agent
+/assets/folder-structure.png" width="80%"/>
 </p>
 
 ---
