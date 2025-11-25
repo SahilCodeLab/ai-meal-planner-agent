@@ -7,6 +7,26 @@ This project is built specifically for the **Concierge Agents Track** in the **G
 
 ---
 
+## 📸 Project Preview
+
+<p align="center">
+  <img src="assets/preview-ui-1.png" width="90%"/>
+  <br><br>
+  <img src="assets/preview-ui-2.png" width="90%"/>
+  <br><br>
+  <img src="assets/preview-ui-3.png" width="90%"/>
+</p>
+
+---
+
+## 📂 Folder Structure
+
+<p align="center">
+  <img src="assets/folder-structure.png" width="80%"/>
+</p>
+
+---
+
 ## 🎯 What Problem It Solves
 Most people struggle with:
 - deciding what to cook daily  
