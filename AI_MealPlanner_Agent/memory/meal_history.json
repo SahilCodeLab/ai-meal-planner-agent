@@ -1,0 +1,4983 @@
+[
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:33:01.200034",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1100
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1300
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 970
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1200
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 970
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1200
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1200
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:33:01.526977",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1180
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1230
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 960
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1140
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1000
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1230
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1170
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:40:15.490299",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Chicken Omelette",
+            "calories": 310,
+            "protein": 28,
+            "carbs": 5,
+            "fat": 20,
+            "prep_time": 12,
+            "ingredients": {
+              "eggs": 2,
+              "chicken": 60
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1130
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Grilled Chicken + Rice",
+            "calories": 500,
+            "protein": 38,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 30,
+            "ingredients": {
+              "chicken": 180,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1170
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Egg Omelette",
+            "calories": 260,
+            "protein": 20,
+            "carbs": 3,
+            "fat": 18,
+            "prep_time": 10,
+            "ingredients": {
+              "eggs": 2,
+              "onions": 30
+            }
+          },
+          "lunch": {
+            "name": "Fish Masala + Rice",
+            "calories": 480,
+            "protein": 32,
+            "carbs": 55,
+            "fat": 12,
+            "prep_time": 35,
+            "ingredients": {
+              "fish": 150,
+              "rice": 140
+            }
+          },
+          "dinner": {
+            "name": "Fish Fry + Rice",
+            "calories": 480,
+            "protein": 30,
+            "carbs": 60,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "fish": 150,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1220
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1200
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Chicken Curry & Rice",
+            "calories": 520,
+            "protein": 35,
+            "carbs": 60,
+            "fat": 14,
+            "prep_time": 40,
+            "ingredients": {
+              "chicken": 150,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1200
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Fish Masala + Rice",
+            "calories": 480,
+            "protein": 32,
+            "carbs": 55,
+            "fat": 12,
+            "prep_time": 35,
+            "ingredients": {
+              "fish": 150,
+              "rice": 140
+            }
+          },
+          "dinner": {
+            "name": "Grilled Chicken + Rice",
+            "calories": 500,
+            "protein": 38,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 30,
+            "ingredients": {
+              "chicken": 180,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1360
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Chicken Omelette",
+            "calories": 310,
+            "protein": 28,
+            "carbs": 5,
+            "fat": 20,
+            "prep_time": 12,
+            "ingredients": {
+              "eggs": 2,
+              "chicken": 60
+            }
+          },
+          "lunch": {
+            "name": "Chicken Curry & Rice",
+            "calories": 520,
+            "protein": 35,
+            "carbs": 60,
+            "fat": 14,
+            "prep_time": 40,
+            "ingredients": {
+              "chicken": 150,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1310
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:43:46.115576",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Fish Masala + Rice",
+            "calories": 480,
+            "protein": 32,
+            "carbs": 55,
+            "fat": 12,
+            "prep_time": 35,
+            "ingredients": {
+              "fish": 150,
+              "rice": 140
+            }
+          },
+          "dinner": {
+            "name": "Grilled Chicken + Rice",
+            "calories": 500,
+            "protein": 38,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 30,
+            "ingredients": {
+              "chicken": 180,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1360
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Egg Omelette",
+            "calories": 260,
+            "protein": 20,
+            "carbs": 3,
+            "fat": 18,
+            "prep_time": 10,
+            "ingredients": {
+              "eggs": 2,
+              "onions": 30
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1090
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Chicken Omelette",
+            "calories": 310,
+            "protein": 28,
+            "carbs": 5,
+            "fat": 20,
+            "prep_time": 12,
+            "ingredients": {
+              "eggs": 2,
+              "chicken": 60
+            }
+          },
+          "lunch": {
+            "name": "Chicken Curry & Rice",
+            "calories": 520,
+            "protein": 35,
+            "carbs": 60,
+            "fat": 14,
+            "prep_time": 40,
+            "ingredients": {
+              "chicken": 150,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Fish Fry + Rice",
+            "calories": 480,
+            "protein": 30,
+            "carbs": 60,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "fish": 150,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1310
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1020
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1140
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Chicken Omelette",
+            "calories": 310,
+            "protein": 28,
+            "carbs": 5,
+            "fat": 20,
+            "prep_time": 12,
+            "ingredients": {
+              "eggs": 2,
+              "chicken": 60
+            }
+          },
+          "lunch": {
+            "name": "Chicken Curry & Rice",
+            "calories": 520,
+            "protein": 35,
+            "carbs": 60,
+            "fat": 14,
+            "prep_time": 40,
+            "ingredients": {
+              "chicken": 150,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1130
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Egg Omelette",
+            "calories": 260,
+            "protein": 20,
+            "carbs": 3,
+            "fat": 18,
+            "prep_time": 10,
+            "ingredients": {
+              "eggs": 2,
+              "onions": 30
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Fish Fry + Rice",
+            "calories": 480,
+            "protein": 30,
+            "carbs": 60,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "fish": 150,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1180
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:43:46.979089",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 990
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Chicken Curry & Rice",
+            "calories": 520,
+            "protein": 35,
+            "carbs": 60,
+            "fat": 14,
+            "prep_time": 40,
+            "ingredients": {
+              "chicken": 150,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1250
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Fish Fry + Rice",
+            "calories": 480,
+            "protein": 30,
+            "carbs": 60,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "fish": 150,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1310
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Egg Omelette",
+            "calories": 260,
+            "protein": 20,
+            "carbs": 3,
+            "fat": 18,
+            "prep_time": 10,
+            "ingredients": {
+              "eggs": 2,
+              "onions": 30
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Grilled Chicken + Rice",
+            "calories": 500,
+            "protein": 38,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 30,
+            "ingredients": {
+              "chicken": 180,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1200
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Chicken Omelette",
+            "calories": 310,
+            "protein": 28,
+            "carbs": 5,
+            "fat": 20,
+            "prep_time": 12,
+            "ingredients": {
+              "eggs": 2,
+              "chicken": 60
+            }
+          },
+          "lunch": {
+            "name": "Fish Masala + Rice",
+            "calories": 480,
+            "protein": 32,
+            "carbs": 55,
+            "fat": 12,
+            "prep_time": 35,
+            "ingredients": {
+              "fish": 150,
+              "rice": 140
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1170
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Chicken Curry & Rice",
+            "calories": 520,
+            "protein": 35,
+            "carbs": 60,
+            "fat": 14,
+            "prep_time": 40,
+            "ingredients": {
+              "chicken": 150,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1150
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Egg Omelette",
+            "calories": 260,
+            "protein": 20,
+            "carbs": 3,
+            "fat": 18,
+            "prep_time": 10,
+            "ingredients": {
+              "eggs": 2,
+              "onions": 30
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1180
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:50:09.307566",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1130
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1170
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1040
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1150
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1180
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:54:41.122252",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1130
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1170
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1150
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1120
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1100
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1020
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:54:52.926266",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 990
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1200
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1180
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 970
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1330
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:55:28.843857",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Fish Fry + Rice",
+            "calories": 480,
+            "protein": 30,
+            "carbs": 60,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "fish": 150,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1150
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Chicken Omelette",
+            "calories": 310,
+            "protein": 28,
+            "carbs": 5,
+            "fat": 20,
+            "prep_time": 12,
+            "ingredients": {
+              "eggs": 2,
+              "chicken": 60
+            }
+          },
+          "lunch": {
+            "name": "Fish Masala + Rice",
+            "calories": 480,
+            "protein": 32,
+            "carbs": 55,
+            "fat": 12,
+            "prep_time": 35,
+            "ingredients": {
+              "fish": 150,
+              "rice": 140
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1170
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1120
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Egg Omelette",
+            "calories": 260,
+            "protein": 20,
+            "carbs": 3,
+            "fat": 18,
+            "prep_time": 10,
+            "ingredients": {
+              "eggs": 2,
+              "onions": 30
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1210
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Chicken Curry & Rice",
+            "calories": 520,
+            "protein": 35,
+            "carbs": 60,
+            "fat": 14,
+            "prep_time": 40,
+            "ingredients": {
+              "chicken": 150,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Grilled Chicken + Rice",
+            "calories": 500,
+            "protein": 38,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 30,
+            "ingredients": {
+              "chicken": 180,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1270
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Chicken Omelette",
+            "calories": 310,
+            "protein": 28,
+            "carbs": 5,
+            "fat": 20,
+            "prep_time": 12,
+            "ingredients": {
+              "eggs": 2,
+              "chicken": 60
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1140
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Grilled Chicken + Rice",
+            "calories": 500,
+            "protein": 38,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 30,
+            "ingredients": {
+              "chicken": 180,
+              "rice": 120
+            }
+          }
+        },
+        "total_calories": 1190
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T14:59:04.225624",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1300
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 990
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1080
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1210
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1020
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1140
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1230
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "sahil_ui",
+    "timestamp": "2025-11-25T14:59:06.524354",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1300
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 990
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1080
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1210
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1020
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1140
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1230
+      }
+    },
+    "feedback": {
+      "rating": 0,
+      "comments": "auto saved"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T15:05:12.992487",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1040
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1330
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1000
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1000
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1300
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 990
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "sahil_ui",
+    "timestamp": "2025-11-25T15:05:15.357236",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1040
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1330
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1000
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1000
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1300
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 990
+      }
+    },
+    "feedback": {
+      "rating": 0,
+      "comments": "auto saved"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T15:09:11.784104",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1100
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 960
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1310
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1120
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1180
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1170
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "sahil_ui",
+    "timestamp": "2025-11-25T15:09:11.983454",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1100
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 960
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1310
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1120
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1180
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1170
+      }
+    },
+    "feedback": {
+      "rating": 0,
+      "comments": "auto saved"
+    }
+  },
+  {
+    "user_id": "unknown",
+    "timestamp": "2025-11-25T15:14:01.909334",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1040
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1200
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1130
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 990
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1080
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1300
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      }
+    },
+    "feedback": {
+      "rating": 5,
+      "comments": "Generated by fallback"
+    }
+  },
+  {
+    "user_id": "sahil_ui",
+    "timestamp": "2025-11-25T15:14:07.919545",
+    "meal_plan": {
+      "Monday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1040
+      },
+      "Tuesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1200
+      },
+      "Wednesday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 1130
+      },
+      "Thursday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Soup",
+            "calories": 300,
+            "protein": 10,
+            "carbs": 40,
+            "fat": 5,
+            "prep_time": 15,
+            "ingredients": {
+              "vegetables": 250
+            }
+          }
+        },
+        "total_calories": 990
+      },
+      "Friday": {
+        "meals": {
+          "breakfast": {
+            "name": "Masala Oats",
+            "calories": 250,
+            "protein": 12,
+            "carbs": 40,
+            "fat": 6,
+            "prep_time": 10,
+            "ingredients": {
+              "oats": 50,
+              "vegetables": 100
+            }
+          },
+          "lunch": {
+            "name": "Dal Rice",
+            "calories": 450,
+            "protein": 22,
+            "carbs": 75,
+            "fat": 12,
+            "prep_time": 25,
+            "ingredients": {
+              "rice": 150,
+              "dal": 100
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1080
+      },
+      "Saturday": {
+        "meals": {
+          "breakfast": {
+            "name": "Paneer Paratha",
+            "calories": 380,
+            "protein": 18,
+            "carbs": 45,
+            "fat": 15,
+            "prep_time": 20,
+            "ingredients": {
+              "paneer": 100,
+              "whole_wheat_flour": 80
+            }
+          },
+          "lunch": {
+            "name": "Veg Biryani",
+            "calories": 440,
+            "protein": 18,
+            "carbs": 80,
+            "fat": 14,
+            "prep_time": 30,
+            "ingredients": {
+              "rice": 160,
+              "vegetables": 200
+            }
+          },
+          "dinner": {
+            "name": "Paneer Curry + Roti",
+            "calories": 480,
+            "protein": 25,
+            "carbs": 50,
+            "fat": 20,
+            "prep_time": 30,
+            "ingredients": {
+              "paneer": 150,
+              "roti": 2
+            }
+          }
+        },
+        "total_calories": 1300
+      },
+      "Sunday": {
+        "meals": {
+          "breakfast": {
+            "name": "Fruit Bowl",
+            "calories": 220,
+            "protein": 8,
+            "carbs": 52,
+            "fat": 1,
+            "prep_time": 5,
+            "ingredients": {
+              "fruits": 150
+            }
+          },
+          "lunch": {
+            "name": "Rajma Chawal",
+            "calories": 470,
+            "protein": 24,
+            "carbs": 70,
+            "fat": 13,
+            "prep_time": 35,
+            "ingredients": {
+              "rajma": 120,
+              "rice": 150
+            }
+          },
+          "dinner": {
+            "name": "Veg Khichdi",
+            "calories": 380,
+            "protein": 15,
+            "carbs": 60,
+            "fat": 10,
+            "prep_time": 20,
+            "ingredients": {
+              "rice": 100,
+              "dal": 80
+            }
+          }
+        },
+        "total_calories": 1070
+      }
+    },
+    "feedback": {
+      "rating": 0,
+      "comments": "auto saved"
+    }
+  }
+]

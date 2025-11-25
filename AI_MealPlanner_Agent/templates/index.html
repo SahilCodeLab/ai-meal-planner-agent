@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Meal Planner Pro</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- html2pdf.js for PDF Generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff4ff',
+                            100: '#dbe6fe',
+                            500: '#6366f1', // Indigo
+                            600: '#4f46e5',
+                            900: '#1e1b4b',
+                        },
+                        dark: {
+                            bg: '#0f172a',
+                            card: '#1e293b',
+                            input: '#334155'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #0f172a;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.15) 0px, transparent 50%);
+            min-height: 100vh;
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .fade-in { animation: fadeIn 0.5s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* Loader */
+        .loader {
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 3px solid #fff;
+            width: 20px;
+            height: 20px;
+            -webkit-animation: spin 1s linear infinite; /* Safari */
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* PDF OVERLAY CONTAINER 
+           Fix for blank pages: This container overlays the entire screen with a white background
+           during generation. This forces the browser to render it fully.
+        */
+        #pdfContainer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            color: black;
+            padding: 40px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            z-index: 9999; /* On top of everything */
+            overflow-y: auto;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+<body class="text-slate-200 antialiased p-4 md:p-8">
+
+    <div class="max-w-7xl mx-auto">
+        
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between items-center mb-10 gap-4">
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400 mb-2">
+                    <i class="fa-solid fa-robot mr-2"></i>AI Meal Planner
+                </h1>
+                <p class="text-slate-400 font-medium">powerd by - sahilcodelab AI agent</p>
+            </div>
+            
+            <!-- Navigation Tabs -->
+            <div class="bg-slate-800/50 p-1.5 rounded-xl flex gap-1 border border-slate-700/50 backdrop-blur-sm">
+                <button id="tabPlan" onclick="switchTab('plan')" class="px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 bg-brand-600 text-white shadow-lg shadow-indigo-500/20">
+                    <i class="fa-solid fa-utensils mr-2"></i>Planner
+                </button>
+                <button id="tabHistory" onclick="switchTab('history')" class="px-6 py-2.5 rounded-lg text-sm font-semibold text-slate-400 hover:text-white hover:bg-slate-700/50 transition-all duration-300">
+                    <i class="fa-solid fa-clock-rotate-left mr-2"></i>History
+                </button>
+            </div>
+        </header>
+
+        <!-- Notification / Modal Container -->
+        <div id="modalOverlay" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+            <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 max-w-sm w-full shadow-2xl transform transition-all scale-100">
+                <h3 id="modalTitle" class="text-xl font-bold text-white mb-2">Confirm</h3>
+                <p id="modalMessage" class="text-slate-400 mb-6">Are you sure?</p>
+                <div class="flex justify-end gap-3">
+                    <button onclick="closeModal(false)" class="px-4 py-2 rounded-lg text-slate-300 hover:bg-slate-700 transition">Cancel</button>
+                    <button id="modalConfirmBtn" class="px-4 py-2 rounded-lg bg-red-500 hover:bg-red-600 text-white font-semibold shadow-lg shadow-red-500/20 transition">Delete</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 1: PLANNER -->
+        <div id="pagePlan" class="fade-in">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                
+                <!-- LEFT SIDEBAR: INPUTS -->
+                <div class="lg:col-span-4 space-y-6">
+                    <div class="glass-card rounded-2xl p-6 md:p-8 shadow-xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-2xl -mr-10 -mt-10 pointer-events-none"></div>
+                        
+                        <h2 class="text-2xl font-bold text-white mb-6 flex items-center">
+                            <span class="bg-indigo-500/20 text-indigo-400 p-2 rounded-lg mr-3">
+                                <i class="fa-solid fa-sliders"></i>
+                            </span>
+                            Preferences
+                        </h2>
+
+                        <div class="space-y-5">
+                            <!-- User ID -->
+                            <div class="group">
+                                <label class="block text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">User ID</label>
+                                <div class="relative">
+                                    <span class="absolute left-4 top-3.5 text-slate-500"><i class="fa-solid fa-user"></i></span>
+                                    <input id="userId" value="sahil_ui" class="w-full bg-dark-input text-white border border-slate-700 rounded-xl py-3 pl-10 pr-4 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all placeholder-slate-500" />
+                                </div>
+                            </div>
+
+                            <!-- Diet Type -->
+                            <div>
+                                <label class="block text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Diet Type</label>
+                                <div class="relative">
+                                    <span class="absolute left-4 top-3.5 text-slate-500"><i class="fa-solid fa-leaf"></i></span>
+                                    <select id="dietType" class="w-full bg-dark-input text-white border border-slate-700 rounded-xl py-3 pl-10 pr-4 appearance-none focus:outline-none focus:border-indigo-500 transition-all cursor-pointer">
+                                        <option value="vegetarian">Vegetarian</option>
+                                        <option value="non-vegetarian">Non-Vegetarian</option>
+                                        <option value="mixed">Mixed</option>
+                                    </select>
+                                    <span class="absolute right-4 top-4 text-slate-500 pointer-events-none"><i class="fa-solid fa-chevron-down text-xs"></i></span>
+                                </div>
+                            </div>
+
+                            <!-- Calories & Goal Row -->
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Calories</label>
+                                    <input type="number" id="calorieTarget" value="2000" class="w-full bg-dark-input text-white border border-slate-700 rounded-xl py-3 px-4 focus:outline-none focus:border-indigo-500 transition-all" />
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Goal</label>
+                                    <select id="goals" class="w-full bg-dark-input text-white border border-slate-700 rounded-xl py-3 px-2 focus:outline-none focus:border-indigo-500 transition-all">
+                                        <option value="weight_loss">Cut Fat</option>
+                                        <option value="muscle_building">Build Muscle</option>
+                                        <option value="maintenance">Maintain</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Allergies -->
+                            <div>
+                                <label class="block text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Allergies</label>
+                                <input id="allergies" placeholder="e.g. nuts, dairy, shellfish" class="w-full bg-dark-input text-white border border-slate-700 rounded-xl py-3 px-4 focus:outline-none focus:border-indigo-500 transition-all placeholder-slate-500" />
+                            </div>
+
+                            <!-- Cuisine -->
+                            <div>
+                                <label class="block text-xs font-bold text-indigo-300 uppercase tracking-wider mb-2">Cuisine</label>
+                                <select id="cuisinePreference" class="w-full bg-dark-input text-white border border-slate-700 rounded-xl py-3 px-4 focus:outline-none focus:border-indigo-500 transition-all">
+                                    <option value="indian">Indian</option>
+                                    <option value="italian">Italian</option>
+                                    <option value="any">Global (Any)</option>
+                                </select>
+                            </div>
+
+                            <button id="generateBtn" class="w-full mt-6 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-indigo-500/30 transform hover:-translate-y-1 transition-all duration-300 flex justify-center items-center gap-2">
+                                <span id="btnText">Generate Plan</span>
+                                <span id="btnIcon">🚀</span>
+                                <div id="btnLoader" class="loader hidden"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDEBAR: RESULTS -->
+                <div class="lg:col-span-8">
+                    
+                    <!-- Empty State -->
+                    <div id="emptyState" class="glass-card rounded-2xl p-12 text-center flex flex-col items-center justify-center h-full min-h-[400px]">
+                        <div class="w-20 h-20 bg-slate-800 rounded-full flex items-center justify-center mb-6 shadow-inner">
+                            <i class="fa-solid fa-basket-shopping text-4xl text-slate-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-2">Ready to cook?</h3>
+                        <p class="text-slate-400 max-w-md mx-auto">Fill in your preferences on the left and hit generate to get your AI-powered weekly nutrition roadmap.</p>
+                    </div>
+
+                    <!-- Results Container -->
+                    <div id="mealPlan" class="hidden space-y-8 fade-in">
+                        
+                        <!-- Actions Row -->
+                        <div class="flex justify-between items-center bg-slate-800/50 p-3 rounded-lg border border-slate-700/50">
+                            <span class="text-sm text-slate-400 font-medium">✨ Plan Generated Successfully</span>
+                            <button id="downloadBtn" onclick="downloadCurrentPlanPDF()" class="bg-slate-700 hover:bg-slate-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition flex items-center gap-2">
+                                <i class="fa-solid fa-file-pdf text-red-400"></i> 
+                                <span>Download PDF</span>
+                            </button>
+                        </div>
+
+                        <!-- Nutrition Stats -->
+                        <div id="nutritionInfo" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <!-- Injected via JS -->
+                        </div>
+
+                        <!-- Weekly Grid -->
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-4 flex items-center">
+                                <i class="fa-solid fa-calendar-week text-indigo-400 mr-2"></i> Weekly Schedule
+                            </h3>
+                            <div id="weeklyPlan" class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                                <!-- Injected via JS -->
+                            </div>
+                        </div>
+
+                        <!-- Shopping List -->
+                        <div class="glass-card rounded-2xl p-6 border-t-4 border-indigo-500">
+                            <h3 class="text-xl font-bold text-white mb-6 flex items-center border-b border-slate-700 pb-4">
+                                <i class="fa-solid fa-cart-shopping text-emerald-400 mr-3"></i> Shopping List
+                            </h3>
+                            <div id="shoppingItems" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-3 gap-x-8">
+                                <!-- Injected via JS -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 2: HISTORY -->
+        <div id="historyPage" class="hidden fade-in max-w-5xl mx-auto">
+            <div class="flex items-center justify-between mb-8">
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Meal Plan History</h2>
+                    <p class="text-slate-400 text-sm mt-1">Access your previously generated plans</p>
+                </div>
+                <button onclick="loadHistory()" class="text-indigo-400 hover:text-indigo-300 text-sm font-semibold">
+                    <i class="fa-solid fa-rotate mr-1"></i> Refresh
+                </button>
+            </div>
+            
+            <div id="historyList" class="space-y-6">
+                <!-- Injected via JS -->
+            </div>
+            
+            <div id="historyEmpty" class="hidden text-center py-20">
+                <p class="text-slate-500">No history found.</p>
+            </div>
+        </div>
+
+        <!-- Hidden container for PDF rendering -->
+        <div id="pdfContainer"></div>
+
+    </div>
+
+<script>
+    // Globals to store data
+    let currentPlanData = null;
+    let historyData = [];
+
+    // Utility Functions
+    function safeNum(v) { return isNaN(Number(v)) ? 0 : Number(v); }
+    
+    function formatQty(q) {
+        q = safeNum(q);
+        return q >= 1000 ? (Math.round(q / 100) / 10) + " kg" : q + " g";
+    }
+
+    // Tab Switching Logic
+    const tabPlan = document.getElementById("tabPlan");
+    const tabHistory = document.getElementById("tabHistory");
+    const pagePlan = document.getElementById("pagePlan");
+    const pageHistory = document.getElementById("historyPage");
+
+    function switchTab(t) {
+        // Reset classes
+        tabPlan.className = "px-6 py-2.5 rounded-lg text-sm font-semibold text-slate-400 hover:text-white hover:bg-slate-700/50 transition-all duration-300";
+        tabHistory.className = "px-6 py-2.5 rounded-lg text-sm font-semibold text-slate-400 hover:text-white hover:bg-slate-700/50 transition-all duration-300";
+        
+        pagePlan.classList.add("hidden");
+        pageHistory.classList.add("hidden");
+
+        if (t === "plan") {
+            tabPlan.className = "px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 bg-brand-600 text-white shadow-lg shadow-indigo-500/20";
+            pagePlan.classList.remove("hidden");
+        } else {
+            tabHistory.className = "px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 bg-brand-600 text-white shadow-lg shadow-indigo-500/20";
+            pageHistory.classList.remove("hidden");
+            loadHistory();
+        }
+    }
+
+    // Modal Logic
+    let pendingDeleteTimestamp = null;
+    const modal = document.getElementById('modalOverlay');
+
+    function showConfirm(timestamp) {
+        pendingDeleteTimestamp = timestamp;
+        modal.classList.remove('hidden');
+    }
+
+    function closeModal(confirmed) {
+        modal.classList.add('hidden');
+        if (confirmed && pendingDeleteTimestamp) {
+            confirmDeleteHistory(pendingDeleteTimestamp);
+        }
+        pendingDeleteTimestamp = null;
+    }
+
+    document.getElementById('modalConfirmBtn').onclick = () => closeModal(true);
+
+    // Generation Logic
+    document.getElementById("generateBtn").addEventListener("click", generateHandler);
+
+    async function generateHandler() {
+        // UI Loading State
+        const btn = document.getElementById("generateBtn");
+        const btnText = document.getElementById("btnText");
+        const btnIcon = document.getElementById("btnIcon");
+        const btnLoader = document.getElementById("btnLoader");
+        const emptyState = document.getElementById("emptyState");
+        const mealPlanEl = document.getElementById("mealPlan");
+
+        btn.disabled = true;
+        btn.classList.add("opacity-75", "cursor-not-allowed");
+        btnText.innerText = "Processing...";
+        btnIcon.classList.add("hidden");
+        btnLoader.classList.remove("hidden");
+        
+        // Clear previous
+        document.getElementById("weeklyPlan").innerHTML = "";
+        document.getElementById("shoppingItems").innerHTML = "";
+        document.getElementById("nutritionInfo").innerHTML = "";
+
+        const prefs = {
+            diet_type: document.getElementById("dietType").value,
+            calorie_target: Number(document.getElementById("calorieTarget").value),
+            allergies: (document.getElementById("allergies").value || "").split(",").map(x => x.trim()).filter(Boolean),
+            cuisine_preference: document.getElementById("cuisinePreference").value,
+            goals: [document.getElementById("goals").value],
+        };
+
+        try {
+            // NOTE: In a real environment, this connects to localhost:8000.
+            // For this UI Demo, we will simulate a response if fetch fails.
+            let json;
+            
+            try {
+                const res = await fetch("http://localhost:8000/api/meal-plan/generate", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ user_id: "sahil_ui", preferences: prefs })
+                });
+                json = await res.json();
+            } catch (e) {
+                console.warn("API Error (likely due to demo environment), using mock data.");
+                await new Promise(r => setTimeout(r, 1500)); // Fake delay
+                json = getMockData(prefs);
+            }
+
+            // Save for PDF Download
+            currentPlanData = json;
+
+            const plan = json.meal_plan;
+            const shop = json.shopping_list;
+            const ana = json.analysis;
+
+            // Render Nutrition Summary
+            const nutritionEl = document.getElementById("nutritionInfo");
+            nutritionEl.innerHTML = `
+                <div class="glass-card p-5 rounded-xl border-l-4 border-indigo-500">
+                    <div class="text-3xl font-bold text-white">${ana.avg_daily_calories}</div>
+                    <div class="text-xs text-indigo-300 uppercase font-bold tracking-wider mt-1">Avg Daily Calories</div>
+                </div>
+                <div class="glass-card p-5 rounded-xl border-l-4 border-purple-500">
+                    <div class="text-3xl font-bold text-white">${ana.avg_daily_protein}g</div>
+                    <div class="text-xs text-purple-300 uppercase font-bold tracking-wider mt-1">Daily Protein</div>
+                </div>
+                <div class="glass-card p-5 rounded-xl border-l-4 border-emerald-500">
+                    <div class="text-3xl font-bold text-white">${ana.total_meals}</div>
+                    <div class="text-xs text-emerald-300 uppercase font-bold tracking-wider mt-1">Total Meals Planned</div>
+                </div>
+            `;
+
+            // Render Weekly Plan
+            const weeklyPlanEl = document.getElementById("weeklyPlan");
+            for (const [day, p] of Object.entries(plan)) {
+                let html = `
+                <div class="glass-card rounded-xl overflow-hidden hover:border-slate-500 transition-colors duration-300">
+                    <div class="bg-slate-800/80 p-4 flex justify-between items-center border-b border-slate-700">
+                        <span class="font-bold text-lg text-white capitalize"><i class="fa-regular fa-calendar mr-2 text-indigo-400"></i>${day}</span>
+                        <span class="bg-indigo-600 text-xs px-2 py-1 rounded text-white font-mono">${p.total_calories} kcal</span>
+                    </div>
+                    <div class="p-4 space-y-4">`;
+
+                const icons = { breakfast: 'mug-hot', lunch: 'bowl-rice', dinner: 'utensils' };
+                const colors = { breakfast: 'text-amber-400', lunch: 'text-emerald-400', dinner: 'text-rose-400' };
+
+                for (const t of ["breakfast", "lunch", "dinner"]) {
+                    const r = p.meals[t];
+                    html += `
+                    <div class="group">
+                        <div class="flex items-start justify-between mb-1">
+                            <div class="text-sm font-semibold text-slate-200 group-hover:text-indigo-300 transition-colors">
+                                <i class="fa-solid fa-${icons[t]} ${colors[t]} w-5"></i> ${t.toUpperCase()}
+                            </div>
+                            <div class="text-xs text-slate-500 font-mono">${r.calories} kcal</div>
+                        </div>
+                        <div class="pl-5">
+                            <div class="text-slate-300 text-sm mb-1">${r.name}</div>
+                            <div class="flex gap-3 text-[10px] text-slate-500 uppercase tracking-wide">
+                                <span><i class="fa-regular fa-clock"></i> ${r.prep_time}m</span>
+                                <span>P: ${r.protein}g</span>
+                                <span>C: ${r.carbs}g</span>
+                                <span>F: ${r.fat}g</span>
+                            </div>
+                        </div>
+                    </div>`;
+                }
+                html += `</div></div>`;
+                weeklyPlanEl.innerHTML += html;
+            }
+
+            // Render Shopping List
+            const shoppingEl = document.getElementById("shoppingItems");
+            for (const k of Object.keys(shop).sort()) {
+                shoppingEl.innerHTML += `
+                    <div class="flex items-center justify-between p-2 rounded hover:bg-slate-700/30 transition-colors border-b border-dashed border-slate-700/50 last:border-0">
+                        <div class="flex items-center gap-2">
+                            <div class="w-1.5 h-1.5 rounded-full bg-indigo-500"></div>
+                            <span class="text-slate-300 text-sm capitalize">${k}</span>
+                        </div>
+                        <span class="text-slate-500 text-xs font-mono bg-slate-800 px-2 py-0.5 rounded">${formatQty(shop[k])}</span>
+                    </div>`;
+            }
+
+            emptyState.style.display = "none";
+            mealPlanEl.classList.remove("hidden");
+
+        } catch (error) {
+            console.error(error);
+            alert("Error generating plan");
+        } finally {
+            // Reset Button
+            btn.disabled = false;
+            btn.classList.remove("opacity-75", "cursor-not-allowed");
+            btnText.innerText = "Generate Plan";
+            btnIcon.classList.remove("hidden");
+            btnLoader.classList.add("hidden");
+        }
+    }
+
+    /* ---------------- HISTORY PAGE --------------- */
+    async function loadHistory() {
+        const list = document.getElementById("historyList");
+        const empty = document.getElementById("historyEmpty");
+        
+        list.innerHTML = `<div class="text-center py-10"><div class="loader inline-block border-indigo-500 border-t-transparent"></div></div>`;
+        
+        try {
+            let json;
+            try {
+                const res = await fetch("http://localhost:8000/api/meal-plan/history/sahil_ui");
+                json = await res.json();
+            } catch(e) {
+                // Mock history for demo
+                await new Promise(r => setTimeout(r, 800));
+                json = getMockHistory();
+            }
+
+            // Save history for PDF download - VERY IMPORTANT
+            historyData = json || [];
+            list.innerHTML = "";
+
+            if (!json || json.length === 0) {
+                empty.classList.remove("hidden");
+                return;
+            }
+            empty.classList.add("hidden");
+
+            json.forEach((h, index) => {
+                let mealsHtml = `<div class="grid grid-cols-1 md:grid-cols-3 gap-2 mt-4 text-xs">`;
+                // Just showing Monday as a preview in history to save space
+                const previewDay = Object.values(h.meal_plan)[0];
+                const dayName = Object.keys(h.meal_plan)[0];
+
+                if(previewDay) {
+                     mealsHtml = `
+                        <div class="mt-4 bg-slate-900/50 p-3 rounded-lg border border-slate-700/50">
+                            <div class="text-indigo-400 font-bold mb-2 flex justify-between">
+                                <span>${dayName} Preview</span>
+                                <span>${previewDay.total_calories} kcal</span>
+                            </div>
+                            <div class="space-y-1 text-slate-400">
+                                <div class="flex justify-between"><span>Brkfst:</span> <span class="text-slate-300 truncate w-32 text-right">${previewDay.meals.breakfast.name}</span></div>
+                                <div class="flex justify-between"><span>Lunch:</span> <span class="text-slate-300 truncate w-32 text-right">${previewDay.meals.lunch.name}</span></div>
+                                <div class="flex justify-between"><span>Dinner:</span> <span class="text-slate-300 truncate w-32 text-right">${previewDay.meals.dinner.name}</span></div>
+                            </div>
+                            <div class="mt-2 text-[10px] text-center text-slate-600 italic">+ 6 more days</div>
+                        </div>
+                     `;
+                }
+
+                list.innerHTML += `
+                    <div class="glass-card p-6 rounded-xl border border-slate-700 relative group transition-all hover:border-indigo-500/50">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <div class="flex items-center gap-2">
+                                    <span class="bg-indigo-900/50 text-indigo-300 text-xs px-2 py-1 rounded border border-indigo-700/50">Completed</span>
+                                    <h4 class="text-lg font-bold text-white">${new Date(h.timestamp).toLocaleDateString()}</h4>
+                                </div>
+                                <p class="text-slate-500 text-sm mt-1">${new Date(h.timestamp).toLocaleTimeString()}</p>
+                            </div>
+                            <div class="flex gap-2">
+                                <button onclick="downloadHistoryPDF(${index})" 
+                                    class="bg-indigo-600/20 hover:bg-indigo-600 text-indigo-400 hover:text-white p-2 rounded-lg transition-colors border border-indigo-500/30" title="Download PDF">
+                                    <i class="fa-solid fa-file-pdf text-lg"></i>
+                                </button>
+                                <button onclick="showConfirm('${h.timestamp}')" 
+                                    class="text-slate-600 hover:text-red-400 p-2 rounded-lg hover:bg-red-500/10 transition-colors" title="Delete">
+                                    <i class="fa-solid fa-trash-can text-lg"></i>
+                                </button>
+                            </div>
+                        </div>
+                        ${mealsHtml}
+                    </div>
+                `;
+            });
+
+        } catch (e) {
+            list.innerHTML = `<div class="text-red-400 text-center">Failed to load history</div>`;
+        }
+    }
+
+    async function confirmDeleteHistory(timestamp) {
+        try {
+            await fetch(`http://localhost:8000/api/meal-plan/history/sahil_ui/${timestamp}`, {
+                method: "DELETE"
+            });
+        } catch(e) {
+            console.log("Mock delete success");
+        }
+        loadHistory();
+    }
+
+    /* ---------------- PDF DOWNLOAD LOGIC --------------- */
+    
+    // Download current active plan
+    function downloadCurrentPlanPDF() {
+        if (!currentPlanData) {
+            alert("No plan to download!");
+            return;
+        }
+        
+        // Show loading state on button
+        const btn = document.getElementById('downloadBtn');
+        const originalText = btn.innerHTML;
+        btn.innerHTML = `<div class="loader w-4 h-4 border-2"></div> Processing...`;
+        btn.disabled = true;
+
+        generateAndDownloadPDF(currentPlanData, "My_Meal_Plan.pdf")
+            .finally(() => {
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+            });
+    }
+
+    // Download history item by index
+    function downloadHistoryPDF(index) {
+        // Robust check to ensure data exists
+        if (!historyData || !historyData[index]) {
+            console.error("Data missing at index:", index, historyData);
+            alert("Error: Data not found. Please refresh history.");
+            return;
+        }
+        
+        const item = historyData[index];
+        const dateStr = new Date(item.timestamp).toISOString().split('T')[0];
+        generateAndDownloadPDF(item, `Meal_Plan_${dateStr}.pdf`);
+    }
+
+    // Main Function to Generate HTML for PDF and Download
+    async function generateAndDownloadPDF(data, filename) {
+        try {
+            const container = document.getElementById('pdfContainer');
+            
+            // Safety check for data structure
+            const plan = data.meal_plan || {};
+            const shop = data.shopping_list || {}; // Fallback if missing
+
+            // 1. Build Simple Text-Based Table Rows
+            // Using standard table for better PDF compatibility
+            let rowsHTML = "";
+            for (const [day, p] of Object.entries(plan)) {
+                if(!p.meals) continue;
+                
+                rowsHTML += `
+                    <tr style="border-bottom: 2px solid #333;">
+                        <td colspan="4" style="background:#eee; font-weight:bold; padding:8px;">${day} (Total: ${p.total_calories || 0} kcal)</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px; width:20%;"><b>Breakfast</b></td>
+                        <td style="padding:5px;">${p.meals.breakfast?.name || '-'}</td>
+                        <td style="padding:5px; text-align:right;">${p.meals.breakfast?.calories || 0} kcal</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px;"><b>Lunch</b></td>
+                        <td style="padding:5px;">${p.meals.lunch?.name || '-'}</td>
+                        <td style="padding:5px; text-align:right;">${p.meals.lunch?.calories || 0} kcal</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px;"><b>Dinner</b></td>
+                        <td style="padding:5px;">${p.meals.dinner?.name || '-'}</td>
+                        <td style="padding:5px; text-align:right;">${p.meals.dinner?.calories || 0} kcal</td>
+                    </tr>
+                `;
+            }
+
+            // 2. Build Simple Shopping List
+            let shopHTML = "";
+            if(Object.keys(shop).length > 0) {
+                for (const k of Object.keys(shop).sort()) {
+                    shopHTML += `<li style="margin-bottom:2px;">${k}: <b>${formatQty(shop[k])}</b></li>`;
+                }
+            } else {
+                shopHTML = "<li>No shopping list items available.</li>";
+            }
+
+            // 3. Populate container with VISIBLE HTML (Important for blank page fix)
+            container.innerHTML = `
+                <div style="text-align:center; padding: 20px;">
+                   <h1 style="color: #6366f1;">Generating PDF...</h1>
+                   <p>Please wait a moment.</p>
+                </div>
+                
+                <div id="pdfContent" style="font-family: Arial, sans-serif; color: black; line-height: 1.4; background: white; padding: 20px;">
+                    <h2 style="text-align:center; border-bottom: 2px solid black; padding-bottom:10px;">Weekly Meal Plan</h2>
+                    <p style="text-align:center; font-size:12px; margin-bottom:20px;">Generated on: ${new Date().toLocaleString()}</p>
+                    
+                    <table style="width:100%; border-collapse: collapse; font-size: 12px; margin-bottom: 20px;">
+                        ${rowsHTML}
+                    </table>
+
+                    <h3 style="border-bottom: 1px solid black; padding-bottom:5px; margin-top:20px;">Shopping List</h3>
+                    <ul style="font-size: 12px; column-count: 2;">
+                        ${shopHTML}
+                    </ul>
+                </div>
+            `;
+
+            // 4. MAKE IT VISIBLE (The Key Fix)
+            // Instead of hiding it, we overlay it on the screen.
+            // This forces the browser to paint it, preventing blank output.
+            container.style.display = "block";
+            
+            // Wait a moment for DOM to paint
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            const elementToCapture = document.getElementById('pdfContent');
+
+            // 5. Generate PDF
+            const opt = {
+                margin:       0.5,
+                filename:     filename,
+                image:        { type: 'jpeg', quality: 0.98 },
+                html2canvas:  { scale: 2, useCORS: true, logging: false },
+                jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+
+            await html2pdf().from(elementToCapture).set(opt).save();
+
+        } catch (err) {
+            console.error("PDF Error:", err);
+            alert("Failed to generate PDF. Check console.");
+        } finally {
+             // 6. Hide it again
+             const container = document.getElementById('pdfContainer');
+             if(container) {
+                 container.innerHTML = "";
+                 container.style.display = "none";
+             }
+        }
+    }
+
+    /* =========================================
+       MOCK DATA FOR PREVIEW ONLY 
+       (Will not be used if real API works)
+       ========================================= */
+    function getMockData(prefs) {
+        return {
+            "meal_plan": {
+                "Monday": { "total_calories": prefs.calorie_target, "meals": { "breakfast": { "name": "Oats & Berries", "calories": 400, "prep_time": 10, "protein": 15, "carbs": 60, "fat": 8 }, "lunch": { "name": "Grilled Chicken Salad", "calories": 700, "prep_time": 20, "protein": 50, "carbs": 40, "fat": 20 }, "dinner": { "name": "Quinoa Bowl", "calories": 600, "prep_time": 25, "protein": 20, "carbs": 80, "fat": 15 } } },
+                "Tuesday": { "total_calories": prefs.calorie_target - 50, "meals": { "breakfast": { "name": "Avocado Toast", "calories": 450, "prep_time": 10, "protein": 12, "carbs": 45, "fat": 20 }, "lunch": { "name": "Lentil Soup", "calories": 650, "prep_time": 30, "protein": 30, "carbs": 90, "fat": 10 }, "dinner": { "name": "Stir Fry Tofu", "calories": 600, "prep_time": 20, "protein": 25, "carbs": 50, "fat": 18 } } },
+                "Wednesday": { "total_calories": prefs.calorie_target + 20, "meals": { "breakfast": { "name": "Greek Yogurt Parfait", "calories": 350, "prep_time": 5, "protein": 20, "carbs": 40, "fat": 5 }, "lunch": { "name": "Paneer Wrap", "calories": 750, "prep_time": 20, "protein": 35, "carbs": 60, "fat": 30 }, "dinner": { "name": "Pasta Primavera", "calories": 620, "prep_time": 25, "protein": 18, "carbs": 90, "fat": 12 } } }
+            },
+            "shopping_list": { "Oats": 500, "Chicken Breast": 1000, "Quinoa": 200, "Avocado": 300, "Tofu": 400, "Greek Yogurt": 500, "Paneer": 250 },
+            "analysis": { "avg_daily_calories": prefs.calorie_target, "avg_daily_protein": 120, "total_meals": 21 }
+        };
+    }
+
+    function getMockHistory() {
+        return [
+            { timestamp: new Date().toISOString(), meal_plan: getMockData({calorie_target: 2000}).meal_plan, shopping_list: getMockData({calorie_target: 2000}).shopping_list },
+            { timestamp: new Date(Date.now() - 86400000).toISOString(), meal_plan: getMockData({calorie_target: 1800}).meal_plan, shopping_list: getMockData({calorie_target: 1800}).shopping_list }
+        ];
+    }
+</script>
+
+</body>
+</html>

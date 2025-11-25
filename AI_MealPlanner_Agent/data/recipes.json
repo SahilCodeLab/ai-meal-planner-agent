@@ -1,0 +1,50 @@
+﻿{
+  "recipes": {
+    "breakfast": [
+      {
+        "name": "Masala Oats",
+        "ingredients": {"oats": 50, "vegetables": 100, "spices": 10, "oil": 5},
+        "calories": 250,
+        "protein": 12,
+        "carbs": 40,
+        "fat": 6,
+        "prep_time": 15,
+        "type": "vegetarian"
+      },
+      {
+        "name": "Paneer Paratha", 
+        "ingredients": {"whole_wheat_flour": 80, "paneer": 100, "spices": 10, "oil": 8},
+        "calories": 380,
+        "protein": 18,
+        "carbs": 45,
+        "fat": 15,
+        "prep_time": 25,
+        "type": "vegetarian"
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Dal Rice with Salad",
+        "ingredients": {"rice": 150, "dal": 100, "vegetables": 200, "spices": 15, "oil": 10},
+        "calories": 450,
+        "protein": 22,
+        "carbs": 75,
+        "fat": 12,
+        "prep_time": 30,
+        "type": "vegetarian"
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Vegetable Khichdi",
+        "ingredients": {"rice": 100, "dal": 80, "vegetables": 150, "spices": 10, "ghee": 8},
+        "calories": 380,
+        "protein": 15,
+        "carbs": 60,
+        "fat": 10,
+        "prep_time": 25,
+        "type": "vegetarian"
+      }
+    ]
+  }
+}

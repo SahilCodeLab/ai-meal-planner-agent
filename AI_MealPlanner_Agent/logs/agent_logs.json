@@ -1,0 +1,505 @@
+2025-11-22 17:40:54,343 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 17:40:54,344 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 17:40:54,345 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 17:40:54,345 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:15:26,865 - MealPlannerAPI - INFO - Generating meal plan for user: kaggle_final_user
+2025-11-22 19:15:26,871 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:15:26,880 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:15:26,884 - MealPlannerAgent - ERROR - Error reading preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:15:26,935 - MealPlannerAgent - INFO - Created new session: session_kaggle_final_user_1763819126.882407
+2025-11-22 19:15:26,948 - MealPlannerAgent - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:15:27,054 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:15:27,055 - MealPlannerAPI - ERROR - Error generating meal plan: [Errno 2] No such file or directory: 'data/recipes.json'
+2025-11-22 19:15:27,060 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:16:10,479 - MealPlannerAPI - INFO - Generating meal plan for user: kaggle_final_user
+2025-11-22 19:16:10,485 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:16:10,489 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:16:10,490 - MealPlannerAgent - ERROR - Error reading preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:16:10,491 - MealPlannerAgent - INFO - Created new session: session_kaggle_final_user_1763819170.49032
+2025-11-22 19:16:10,534 - MealPlannerAgent - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:16:10,654 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:16:10,666 - MealPlannerAPI - ERROR - Error generating meal plan: [Errno 2] No such file or directory: 'data/recipes.json'
+2025-11-22 19:16:10,667 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:16:40,373 - MealPlannerAPI - INFO - Generating meal plan for user: kaggle_final_user
+2025-11-22 19:16:40,374 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:16:40,375 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:16:40,376 - MealPlannerAgent - ERROR - Error reading preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:16:40,376 - MealPlannerAgent - INFO - Created new session: session_kaggle_final_user_1763819200.375593
+2025-11-22 19:16:40,377 - MealPlannerAgent - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:16:40,489 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:16:40,491 - MealPlannerAPI - ERROR - Error generating meal plan: [Errno 2] No such file or directory: 'data/recipes.json'
+2025-11-22 19:16:40,494 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:20:49,716 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:20:49,718 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:20:49,719 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:20:49,719 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:22:04,823 - MealPlannerAPI - INFO - Generating meal plan for user: string
+2025-11-22 19:22:04,824 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:22:04,863 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:22:04,866 - MealPlannerAgent - ERROR - Error reading preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:22:04,866 - MealPlannerAgent - INFO - Created new session: session_string_1763819524.865333
+2025-11-22 19:22:04,868 - MealPlannerAgent - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:22:04,973 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:22:04,975 - MealPlannerAPI - ERROR - Error generating meal plan: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:22:04,976 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:26:13,068 - MealPlannerAPI - INFO - Generating meal plan for user: string
+2025-11-22 19:26:13,070 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:26:13,070 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:26:13,116 - MealPlannerAgent - ERROR - Error reading preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:26:13,116 - MealPlannerAgent - INFO - Created new session: session_string_1763819773.115433
+2025-11-22 19:26:13,117 - MealPlannerAgent - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:26:13,220 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:26:13,224 - MealPlannerAPI - ERROR - Error generating meal plan: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:26:13,225 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:27:57,344 - MealPlannerAPI - INFO - Generating meal plan for user: string
+2025-11-22 19:27:57,348 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:27:57,349 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:27:57,352 - MealPlannerAgent - ERROR - Error reading preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:27:57,418 - MealPlannerAgent - INFO - Created new session: session_string_1763819877.350217
+2025-11-22 19:27:57,449 - MealPlannerAgent - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:27:57,568 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:27:57,582 - MealPlannerAPI - ERROR - Error generating meal plan: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:27:57,585 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:28:27,976 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_test
+2025-11-22 19:28:27,978 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:28:27,979 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:28:27,981 - MealPlannerAgent - ERROR - Error reading preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:28:28,035 - MealPlannerAgent - INFO - Created new session: session_sahil_test_1763819907.980565
+2025-11-22 19:28:28,054 - MealPlannerAgent - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:28:28,192 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:28:28,195 - MealPlannerAPI - ERROR - Error generating meal plan: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:28:28,196 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:35:55,427 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:35:55,429 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:35:55,431 - MealPlannerAgent - ERROR - Error loading recipes: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:35:55,432 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:35:55,432 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:36:32,486 - MealPlannerAPI - INFO - Generating meal plan for user: string
+2025-11-22 19:36:32,511 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:36:32,511 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:36:32,848 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:36:33,072 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-22 19:36:33,176 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-22 19:36:33,291 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:36:33,294 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:41:05,022 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:41:05,024 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:41:05,028 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:41:05,029 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:41:05,029 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:48:43,370 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:48:43,371 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:48:43,372 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:48:43,373 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:48:43,375 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:48:43,378 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:48:58,766 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:48:58,767 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:48:58,767 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:48:58,768 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:48:58,769 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:48:58,769 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:48:58,769 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:48:58,769 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:48:58,769 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:48:58,770 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:49:07,024 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:49:07,025 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:49:07,028 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:49:07,028 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:49:07,029 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:49:07,039 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:49:07,041 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:49:07,042 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:49:07,043 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:49:07,043 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:49:12,275 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:49:12,278 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:49:12,277 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:49:12,284 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:49:12,285 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:49:12,285 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:49:12,286 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:49:12,288 - MealPlannerAgent - ERROR - Error loading recipes: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+2025-11-22 19:49:12,289 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:49:12,289 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:49:27,999 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:49:28,002 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:49:28,037 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:49:28,040 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:49:37,396 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:49:37,398 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:49:37,399 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:49:37,399 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:49:37,399 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:49:37,400 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:49:37,401 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:49:37,402 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:50:21,038 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 19:50:21,040 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 19:50:21,041 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 19:50:21,041 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 19:51:33,367 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_test
+2025-11-22 19:51:33,368 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 19:51:33,369 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 19:51:33,474 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 19:51:33,683 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-22 19:51:33,794 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-22 19:51:33,907 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-22 19:51:33,909 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 20:19:39,401 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 20:19:39,403 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 20:19:39,404 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 20:19:39,408 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 20:19:39,408 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 20:19:39,408 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 20:19:39,410 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 20:19:39,411 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 20:19:39,411 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 20:19:39,411 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 20:19:39,411 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 20:19:39,412 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 20:19:50,905 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 20:19:50,906 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 20:19:50,907 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 20:19:50,908 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 20:23:26,380 - MealPlannerAPI - INFO - Generating meal plan for user: final_test
+2025-11-22 20:23:26,387 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 20:23:26,387 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 20:23:26,499 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 20:23:26,717 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-22 20:23:26,833 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-22 20:23:26,950 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-22 20:23:26,953 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 20:35:41,894 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-22 20:35:41,894 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 20:35:41,895 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 20:35:42,004 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 20:35:42,205 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-22 20:35:42,321 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-22 20:35:42,439 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-22 20:35:42,442 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 22:30:31,813 - MealPlannerAPI - INFO - Generating meal plan for user: sahil raza
+2025-11-22 22:30:31,820 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 22:30:31,821 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 22:30:31,937 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 22:30:32,155 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-22 22:30:32,268 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-22 22:30:32,405 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-22 22:30:32,409 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 22:48:24,192 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-22 22:48:24,195 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-22 22:48:24,196 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-22 22:48:24,301 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-22 22:48:24,515 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-22 22:48:24,624 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-22 22:48:24,734 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-22 22:48:24,758 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-22 23:19:26,769 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 23:19:26,773 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 23:19:26,773 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-22 23:19:26,776 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 23:19:26,776 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 23:19:26,780 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 23:19:26,780 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 23:19:26,781 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 23:19:26,778 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+ssfully
+2025-11-22 23:19:26,785 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-22 23:19:26,791 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-22 23:19:26,793 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-22 23:19:26,794 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-23 17:22:43,277 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 17:22:43,282 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-23 17:22:43,286 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-23 17:22:43,287 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-23 17:42:07,316 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 17:42:07,318 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-23 17:42:07,319 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-23 17:42:07,319 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-23 18:07:29,958 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:07:29,970 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-23 18:07:29,971 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-23 18:07:30,078 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-23 18:07:30,291 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-23 18:07:30,398 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-23 18:07:30,518 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-23 18:07:30,521 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-23 18:13:29,056 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 18:13:29,056 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 18:13:29,059 - MealPlannerAPI - ERROR - Error during startup: name 'AdvancedGeminiTools' is not defined
+2025-11-23 18:13:29,060 - MealPlannerAPI - ERROR - Error during startup: name 'AdvancedGeminiTools' is not defined
+2025-11-23 18:16:50,066 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 18:16:50,067 - MealPlannerAPI - ERROR - Error during startup: name 'AdvancedGeminiTools' is not defined
+2025-11-23 18:16:50,077 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 18:16:50,079 - MealPlannerAPI - ERROR - Error during startup: name 'AdvancedGeminiTools' is not defined
+2025-11-23 18:35:27,075 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 18:35:27,078 - MealPlannerAPI - ERROR - Error during startup: name 'AdvancedGeminiTools' is not defined
+2025-11-23 18:36:47,868 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 18:36:47,869 - MealPlannerAPI - ERROR - Error during startup: name 'AdvancedGeminiTools' is not defined
+2025-11-23 18:36:58,881 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 18:36:58,885 - MealPlannerAPI - ERROR - Error during startup: name 'AdvancedGeminiTools' is not defined
+2025-11-23 18:38:08,512 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:38:08,513 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 18:38:10,947 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:38:10,949 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 18:38:18,841 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:38:18,843 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 18:38:53,298 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:38:53,298 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 18:39:00,772 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:39:00,773 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 18:39:31,330 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:39:31,332 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 18:39:41,350 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:39:41,356 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 18:39:50,249 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:39:50,251 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 18:40:21,211 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 18:40:21,211 - MealPlannerAPI - ERROR - Error generating meal plan: 'NoneType' object has no attribute 'sequential_workflow'
+2025-11-23 22:40:21,190 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 22:40:21,194 - MealPlannerAPI - ERROR - Error during startup: name 'AdvancedGeminiTools' is not defined
+2025-11-23 22:45:57,122 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 22:45:57,154 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-23 22:45:57,155 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-23 22:47:23,429 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 22:47:23,431 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-23 22:47:23,431 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-23 22:47:23,432 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-23 22:47:36,805 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 22:47:36,821 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-23 22:47:36,821 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-23 22:47:45,642 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 22:47:45,645 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-23 22:47:45,647 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-23 22:47:45,647 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-23 22:48:03,677 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-23 22:48:03,678 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-23 22:48:03,679 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-23 22:48:03,679 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-23 22:48:36,620 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-23 22:48:36,623 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-23 22:48:36,624 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-23 22:48:36,737 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-23 22:48:36,952 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-23 22:48:37,057 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-23 22:48:37,174 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-23 22:48:37,176 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 15:04:20,997 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:04:20,999 - MealPlannerAPI - ERROR - Error during startup: name 'SmartGeminiTools' is not defined
+2025-11-24 15:04:26,061 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:04:26,062 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:04:26,063 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:04:26,064 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:05:12,779 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:05:12,781 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:05:12,783 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:05:12,783 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:05:20,964 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:05:20,965 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:05:20,966 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:05:20,966 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:05:29,366 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:05:29,367 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:05:29,368 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:05:29,368 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:06:41,827 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 15:06:41,837 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-24 15:06:41,837 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-24 15:06:41,943 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-24 15:06:42,147 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-24 15:06:42,256 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-24 15:06:42,368 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-24 15:06:42,369 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 15:08:34,020 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:08:34,021 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:08:34,022 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:08:34,022 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:08:45,360 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:08:45,362 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:08:45,362 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:08:45,363 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:09:22,690 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 15:09:23,805 - GeminiTools - ERROR - Gemini AI failed, using fallback: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-24 15:09:23,805 - GeminiTools - INFO - Using smart fallback meal planner
+2025-11-24 15:09:23,806 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 15:14:29,411 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:14:29,412 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:14:29,413 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:14:29,413 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:14:43,867 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 15:14:44,815 - GeminiTools - ERROR - Gemini AI failed, using fallback: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-24 15:14:44,815 - GeminiTools - INFO - Using smart fallback meal planner
+2025-11-24 15:14:44,816 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 15:14:50,082 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 15:14:50,262 - GeminiTools - ERROR - Gemini AI failed, using fallback: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-24 15:14:50,268 - GeminiTools - INFO - Using smart fallback meal planner
+2025-11-24 15:14:50,269 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 15:17:21,165 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:17:21,166 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:17:21,167 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:17:21,167 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:17:36,182 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 15:17:36,184 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 15:22:49,758 - MealPlannerAPI - INFO - Generating meal plan for user: sahil
+2025-11-24 15:22:49,760 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 15:26:47,763 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 15:26:47,764 - GeminiTools - INFO - Gemini model initialized successfully
+2025-11-24 15:26:47,765 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 15:26:47,765 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 15:27:08,194 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 15:27:09,346 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 16:45:28,492 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 16:45:28,528 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 16:45:28,528 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 16:45:48,388 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 16:45:49,498 - GeminiTools - WARNING - Gemini generation failed — falling back: Gemini request failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-24 16:45:49,502 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 16:48:07,120 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 16:48:07,153 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 16:48:07,154 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 17:00:09,857 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 17:00:09,859 - MealPlannerAPI - WARNING - SmartGeminiTools init failed: name 'SmartGeminiTools' is not defined
+2025-11-24 17:00:09,860 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 17:00:09,860 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 17:00:12,343 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 17:00:12,344 - GeminiTools - INFO - Gemini model loaded: models/gemini-1.5-flash
+2025-11-24 17:00:12,344 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 17:00:12,345 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 17:00:25,249 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 17:00:25,250 - GeminiTools - INFO - Gemini model loaded: models/gemini-1.5-flash
+2025-11-24 17:00:25,253 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 17:00:25,255 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 17:00:46,562 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 17:00:46,563 - GeminiTools - INFO - Gemini model loaded: models/gemini-1.5-flash
+2025-11-24 17:00:46,563 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 17:00:46,564 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 17:02:04,079 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 17:02:04,857 - GeminiTools - WARNING - Gemini generation failed, falling back: Gemini request failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-24 17:02:04,859 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 17:07:14,258 - MealPlannerAPI - INFO - Initializing AI Meal Planner Agent...
+2025-11-24 17:07:14,259 - GeminiTools - INFO - Gemini model loaded: models/gemini-1.5-flash
+2025-11-24 17:07:14,260 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 17:07:14,261 - MealPlannerAPI - INFO - AI Meal Planner Agent initialized successfully
+2025-11-24 17:07:30,326 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-24 17:07:31,402 - GeminiTools - WARNING - Gemini generation failed — fallback: Gemini request failed: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-24 17:07:31,406 - MealPlannerAgent - ERROR - Error logging metrics: Expecting value: line 1 column 1 (char 0)
+2025-11-24 17:17:22,954 - MealPlannerAPI - INFO - Initializing agents...
+2025-11-24 17:17:22,955 - GeminiTools - INFO - Gemini model loaded: models/gemini-1.5-flash
+2025-11-24 17:17:22,956 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 17:17:22,957 - MealPlannerAPI - INFO - Startup complete: agents ready
+2025-11-24 17:33:18,203 - MealPlannerAPI - INFO - Initializing agents...
+2025-11-24 17:33:18,204 - GeminiTools - INFO - Gemini 1.5 Flash loaded
+2025-11-24 17:33:18,205 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 17:33:18,205 - MealPlannerAPI - INFO - Startup complete: agents ready
+2025-11-24 17:33:30,221 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 17:33:31,396 - GeminiTools - WARNING - Gemini failed, using fallback: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-24 17:33:42,579 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 17:33:42,764 - GeminiTools - WARNING - Gemini failed, using fallback: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-24 17:39:14,960 - MealPlannerAPI - INFO - Initializing agents...
+2025-11-24 17:39:14,961 - GeminiTools - INFO - Gemini model loaded successfully
+2025-11-24 17:39:14,962 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 17:39:14,962 - MealPlannerAPI - INFO - Startup complete: agents ready
+2025-11-24 17:40:20,440 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 17:48:46,825 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 17:58:53,130 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 17:59:04,644 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 17:59:11,178 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 18:00:00,551 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 18:04:22,973 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 18:05:58,409 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 18:06:05,636 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 18:06:08,127 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 18:06:09,575 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 18:08:18,040 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 19:04:06,846 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 19:04:41,191 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 21:46:47,817 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 21:46:50,169 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 21:47:11,500 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:27:51,738 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:28:32,790 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:55:33,969 - MealPlannerAPI - INFO - Initializing agents...
+2025-11-24 22:55:33,976 - MealPlannerAPI - INFO - Memory Tools loaded
+2025-11-24 22:55:33,977 - GeminiTools - INFO - Gemini model loaded successfully
+2025-11-24 22:55:33,977 - MealPlannerAPI - INFO - Gemini loaded
+2025-11-24 22:55:33,980 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-24 22:55:33,983 - MealPlannerAPI - INFO - MealPlannerAgent loaded
+2025-11-24 22:55:33,985 - MealPlannerAPI - INFO - Startup complete: agents ready
+2025-11-24 22:55:46,590 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:55:54,361 - MealPlannerAPI - ERROR - Memory Save Failed: 'AdvancedMemoryTools' object has no attribute 'save_meal_history'
+2025-11-24 22:55:54,429 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:55:57,085 - MealPlannerAPI - ERROR - Memory Save Failed: 'AdvancedMemoryTools' object has no attribute 'save_meal_history'
+2025-11-24 22:55:57,134 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:55:59,648 - MealPlannerAPI - ERROR - Memory Save Failed: 'AdvancedMemoryTools' object has no attribute 'save_meal_history'
+2025-11-24 22:55:59,782 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:56:00,170 - MealPlannerAPI - ERROR - Memory Save Failed: 'AdvancedMemoryTools' object has no attribute 'save_meal_history'
+2025-11-24 22:56:00,214 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:56:00,505 - MealPlannerAPI - ERROR - Memory Save Failed: 'AdvancedMemoryTools' object has no attribute 'save_meal_history'
+2025-11-24 22:56:00,623 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:56:00,918 - MealPlannerAPI - ERROR - Memory Save Failed: 'AdvancedMemoryTools' object has no attribute 'save_meal_history'
+2025-11-24 22:56:02,929 - MealPlannerAPI - INFO - Request from sahil_ui
+2025-11-24 22:56:03,125 - MealPlannerAPI - ERROR - Memory Save Failed: 'AdvancedMemoryTools' object has no attribute 'save_meal_history'
+2025-11-25 10:58:53,315 - MealPlannerAPI - INFO - Initializing agents/tools...
+2025-11-25 10:58:53,317 - MealPlannerAPI - INFO - AdvancedMemoryTools initialized
+2025-11-25 10:58:53,317 - GeminiTools - INFO - Gemini model loaded successfully
+2025-11-25 10:58:53,317 - MealPlannerAPI - INFO - SmartGeminiTools initialized
+2025-11-25 10:58:53,318 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-25 10:58:53,318 - MealPlannerAPI - INFO - MealPlannerAgent initialized
+2025-11-25 10:58:53,318 - MealPlannerAPI - INFO - AgentEvaluator initialized
+2025-11-25 10:58:53,319 - MealPlannerAPI - INFO - Startup complete
+2025-11-25 11:00:08,106 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-25 11:00:09,283 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-25 11:00:09,284 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-25 11:00:09,394 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-25 11:00:09,611 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-25 11:00:09,719 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-25 11:00:09,825 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:00:09,825 - MealPlannerAPI - INFO - Meal history saved via MealPlannerAgent for user sahil_ui
+2025-11-25 11:00:20,607 - MealPlannerAPI - INFO - Generating meal plan for user: sahil_ui
+2025-11-25 11:00:20,965 - MealPlannerAgent - INFO - Starting sequential workflow
+2025-11-25 11:00:20,968 - MealPlannerAgent - INFO - Input Processing Agent working...
+2025-11-25 11:00:21,093 - MealPlannerAgent - INFO - Meal Planning Agent working...
+2025-11-25 11:00:21,295 - MealPlannerAgent - INFO - Nutrition Analysis Agent working...
+2025-11-25 11:00:21,398 - MealPlannerAgent - INFO - Shopping List Agent working...
+2025-11-25 11:00:21,506 - MealPlannerAgent - ERROR - Error saving history: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:00:21,506 - MealPlannerAPI - INFO - Meal history saved via MealPlannerAgent for user sahil_ui
+2025-11-25 11:05:42,426 - MealPlannerAPI - INFO - Initializing agents/tools...
+2025-11-25 11:05:42,427 - GeminiTools - INFO - Gemini model loaded successfully
+2025-11-25 11:05:42,427 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-25 11:05:42,428 - MealPlannerAPI - INFO - Startup complete
+2025-11-25 11:06:01,874 - MealPlannerAPI - INFO - Incoming request from: sahil_ui
+2025-11-25 11:06:02,575 - MemoryTools - INFO - Created new session: sess_sahil_ui_1764048962
+2025-11-25 11:06:02,577 - MemoryTools - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:06:02,578 - MemoryTools - ERROR - Error saving feedback: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:06:09,577 - MealPlannerAPI - INFO - Incoming request from: sahil_ui
+2025-11-25 11:06:09,796 - MemoryTools - INFO - Created new session: sess_sahil_ui_1764048969
+2025-11-25 11:06:09,797 - MemoryTools - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:06:09,799 - MemoryTools - ERROR - Error saving feedback: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:10:44,141 - MealPlannerAPI - INFO - Initializing agents/tools...
+2025-11-25 11:10:44,142 - GeminiTools - INFO - Gemini model loaded successfully
+2025-11-25 11:10:44,143 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-25 11:10:44,143 - MealPlannerAPI - INFO - Startup complete
+2025-11-25 11:12:16,968 - MealPlannerAPI - INFO - Initializing agents/tools...
+2025-11-25 11:12:16,969 - GeminiTools - INFO - Gemini model loaded successfully
+2025-11-25 11:12:16,970 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-25 11:12:16,970 - MealPlannerAPI - INFO - Startup complete
+2025-11-25 11:12:26,754 - MealPlannerAPI - INFO - Incoming request from: sahil_ui
+2025-11-25 11:12:27,610 - MemoryTools - ERROR - Error saving feedback: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:12:27,614 - MemoryTools - INFO - Created new session: sess_sahil_ui_1764049347
+2025-11-25 11:12:27,619 - MemoryTools - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:12:27,621 - MemoryTools - ERROR - Error saving feedback: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:13:17,615 - MealPlannerAPI - INFO - Initializing agents/tools...
+2025-11-25 11:13:17,616 - GeminiTools - INFO - Gemini model loaded successfully
+2025-11-25 11:13:17,616 - MealPlannerAgent - INFO - MealPlannerAgent initialized
+2025-11-25 11:13:17,617 - MealPlannerAPI - INFO - Startup complete
+2025-11-25 11:13:30,375 - MealPlannerAPI - INFO - Incoming request from: sahil_ui
+2025-11-25 11:13:31,976 - MemoryTools - ERROR - Error saving feedback: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:13:31,979 - MemoryTools - INFO - Created new session: sess_sahil_ui_1764049411
+2025-11-25 11:13:32,026 - MemoryTools - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:13:32,029 - MemoryTools - ERROR - Error saving feedback: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:13:32,626 - MealPlannerAPI - INFO - Incoming request from: sahil_ui
+2025-11-25 11:13:32,881 - MemoryTools - ERROR - Error saving feedback: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:13:32,886 - MemoryTools - INFO - Created new session: sess_sahil_ui_1764049412
+2025-11-25 11:13:32,891 - MemoryTools - ERROR - Error saving preferences: Expecting value: line 1 column 1 (char 0)
+2025-11-25 11:13:32,893 - MemoryTools - ERROR - Error saving feedback: Expecting value: line 1 column 1 (char 0)

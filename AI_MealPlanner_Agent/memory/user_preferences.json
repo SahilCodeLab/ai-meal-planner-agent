@@ -1,0 +1,19 @@
+{
+  "sahil_ui": {
+    "diet_type": "vegetarian",
+    "calorie_target": 2000,
+    "allergies": [],
+    "cuisine_preference": "indian",
+    "goals": [
+      "weight_loss"
+    ],
+    "last_updated": "2025-11-25T15:14:07.370569",
+    "preference_strength": {
+      "diet_type": "medium",
+      "calorie_target": "weak",
+      "allergies": "weak",
+      "cuisine_preference": "medium",
+      "goals": "strong"
+    }
+  }
+}
