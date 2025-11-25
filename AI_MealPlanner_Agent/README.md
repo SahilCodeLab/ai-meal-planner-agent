@@ -1,18 +1,100 @@
-# 💫 About Me:
-my name is sahil raxa<br>i have a web devoper and app devloper UI UX desiner <br>i hame 3 yars of expirince this space<br>
+# 💫 About Me
 
+📘 **About This Project — AI Meal Planner Agent**  
+The AI Meal Planner Agent automates the entire meal-planning workflow. Instead of manually selecting recipes, calculating macros, or building grocery lists, this system uses **multi-agent intelligence**, **Gemini AI**, and **persistent long-term memory** to generate fully personalized weekly plans with minimal input from the user.
 
-## 🌐 Socials:
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/sahilcodelab) [![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/sahilcodelab) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/sahilcodelab) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/sahilcodelab) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/sahilcodelab) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sahilcodelab) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@sahilcodelab) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/sahilcodelab) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/sahilcodelab) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/sahilcodelab) 
-
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Glitch](https://img.shields.io/badge/glitch-%233333FF.svg?style=for-the-badge&logo=glitch&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Proto.io](https://img.shields.io/badge/Proto.io-161637?style=for-the-badge&logo=proto.io&logoColor=00e5ff) ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B) ![Inkscape](https://img.shields.io/badge/Inkscape-e0e0e0?style=for-the-badge&logo=inkscape&logoColor=080A13) ![Sketch Up](https://img.shields.io/badge/SketchUp-005F9E?style=for-the-badge&logo=sketchup&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=sahilcodelab&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=sahilcodelab&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=sahilcodelab&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+This project is built specifically for the **Concierge Agents Track** in the **Google AI Agents Intensive Capstone Project**.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=sahilcodelab&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🎯 What Problem It Solves
+Most people struggle with:
+- deciding what to cook daily  
+- maintaining a balanced diet  
+- avoiding repetitive meals  
+- calculating calories and macros  
+- preparing a weekly grocery list  
+
+This agent removes all manual effort by generating **optimized, health-aligned, variety-rich weekly plans** instantly.
+
+---
+
+## 💡 Why an Agent-Based Solution
+Traditional meal apps return random recipes.  
+This system uses **specialized agents that collaborate**:
+
+- **Input Agent** → interprets preferences  
+- **Meal Planner Agent** → crafts structured meal plans  
+- **Nutrition Agent** → calculates macros + calories  
+- **Shopping Agent** → prepares a consolidated ingredient list  
+- **Memory Agent** → stores preferences, sessions, and history  
+
+The system behaves like a **smart personal chef** that learns and adapts over time.
+
+---
+
+## ⚙ How It Works (High-Level Flow)
+1. User selects diet, allergies, calories, and goals  
+2. Agents work together to build a 7–14 day meal plan  
+3. Gemini AI enhances nutrition and variety  
+4. A clean, optimized shopping list is generated  
+5. History + preferences are saved in long-term memory  
+6. User can revisit or delete past plans anytime  
+
+---
+
+## 🏆 Why This Project Stands Out
+- Fully implemented **multi-agent architecture**  
+- Strong memory system (history, preferences, sessions)  
+- Functional **frontend UI with live history**  
+- Gemini 1.5 Flash intelligence with fallback engine  
+- Production-ready **FastAPI backend**  
+- Clean modular code + structured logs  
+- 100% ready for Kaggle Capstone submission  
+
+---
+
+## 🔮 Vision
+Future roadmap:
+- dynamic plans based on fitness goals  
+- grocery receipt understanding  
+- macro tracking over time  
+- budget-friendly meal recommendations  
+- integration with fitness wearables  
+
+This capstone version establishes the foundation for a full personal nutrition companion.
+
+---
+
+## 🌐 Socials
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/clipztar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sahil-razaofficial)
+[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/sahilcodelab)
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:contact.sahilraza@gmail.com)
+
+---
+
+## 💻 Tech Stack
+![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=plastic&logo=fastapi)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=plastic&logo=bootstrap&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=plastic&logo=githubactions&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+![](https://github-readme-stats.vercel.app/api?username=sahilcodelab&theme=darcula&hide_border=false&include_all_commits=true&count_private=false)
+![](https://nirzak-streak-stats.vercel.app/?user=sahilcodelab&theme=darcula&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=sahilcodelab&theme=darcula&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+---
+
+[![](https://visitcount.itsvg.in/api?id=sahilcodelab&icon=2&color=0)](https://visitcount.itsvg.in)
+
+<!-- Created with GPRM ( https://gprm.itsvg.in ) -->
