@@ -9,11 +9,11 @@ This project is built specifically for the **Concierge Agents Track** in the **G
 
 ## 📸 Project Preview
 <p align="center">
-  <img src="AI_MealPlanner_Agent/assets/preview1.png" width="90%"/>
+  <img src="AI_MealPlanner_Agent/assets/preview1.png" width="30%"/>
   <br><br>
-  <img src="AI_MealPlanner_Agent/assets/preview2.png" width="90%"/>
+  <img src="AI_MealPlanner_Agent/assets/preview2.png" width="30%"/>
   <br><br>
-  <img src="AI_MealPlanner_Agent/assets/preview3.png" width="90%"/>
+  <img src="AI_MealPlanner_Agent/assets/preview3.png" width="30%"/>
 </p>
 
 ---
