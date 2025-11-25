@@ -21,8 +21,7 @@ This project is built specifically for the **Concierge Agents Track** in the **G
 ## 📂 Folder Structure
 
 <p align="center">
-  <img src="ai-meal-planner-agent
-/assets/folder-structure.png" width="80%"/>
+  <img src="AI_MealPlanner_Agent/assets/folder-structure.png" width="50%"/>
 </p>
 
 ---
