@@ -106,14 +106,3 @@ This capstone version establishes the foundation for a full personal nutrition c
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=plastic&logo=githubactions&logoColor=white)
 
 ---
-
-## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=sahilcodelab&theme=darcula&hide_border=false&include_all_commits=true&count_private=false)
-![](https://nirzak-streak-stats.vercel.app/?user=sahilcodelab&theme=darcula&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=sahilcodelab&theme=darcula&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
----
-
-[![](https://visitcount.itsvg.in/api?id=sahilcodelab&icon=2&color=0)](https://visitcount.itsvg.in)
-
-<!-- Created with GPRM ( https://gprm.itsvg.in ) -->
